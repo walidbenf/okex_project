@@ -24,7 +24,14 @@ Implementation of the CCAPI connector for OKX exchange, supporting:
 
 ## Testing
 Run tests with:
-
+test_units:
+```bash
+bash run test.sh
+```
+test_integration
+```bash
+bash run test_integration.sh
+```
 ## Dependencies
 - Boost
 - OpenSSL
