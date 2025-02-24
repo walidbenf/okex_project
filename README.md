@@ -24,18 +24,18 @@ Implementation of the CCAPI connector for OKX exchange, supporting:
 ## Build
 Run build with:
 ```bash
-bash run clean_build.sh
+bash clean_build.sh
 ```
 
 ## Testing
 Run tests with:
 test_units:
 ```bash
-bash run test.sh
+bash test.sh
 ```
 test_integration
 ```bash
-bash run test_integration.sh
+bash test_integration.sh
 ```
 ## Dependencies
 - Boost
