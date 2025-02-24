@@ -21,7 +21,10 @@ Implementation of the CCAPI connector for OKX exchange, supporting:
 - API Key authentication
 - HMAC SHA256 request signing
 - Simulated trading support for test accounts
-
+## Build
+```
+bash clean_build.sh
+```
 ## Testing
 Run tests with:
 ```bash
