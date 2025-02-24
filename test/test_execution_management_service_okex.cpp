@@ -117,7 +117,7 @@ void testCancelOrdersByClientOrderIds() {
 
     std::string expectedBody = R"({"orders":[{"clOrdId":"order1","instId":"BTC-USDT"},{"clOrdId":"order2","instId":"BTC-USDT"},{"clOrdId":"order3","instId":"BTC-USDT"}]})";
 
-    // Ajouter ces lignes pour le debug
+    // debug
     std::cout << "Expected body: " << expectedBody << std::endl;
     std::cout << "Actual body: " << req.body() << std::endl;
 

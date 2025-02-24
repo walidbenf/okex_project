@@ -74,4 +74,6 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
         ${OPENSSL_LIBRARIES}
         pthread
     )
+	add_compile_definitions(CCAPI_APP_ENABLE_LOG_INFO)
+	add_compile_definitions(CCAPI_APP_ENABLE_LOG_DEBUG)
 endif()
