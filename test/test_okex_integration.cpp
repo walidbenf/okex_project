@@ -96,9 +96,9 @@ int main() {
 
         // Configuration des credentials
         std::map<std::string, std::string> credential = {
-            {CCAPI_OKX_API_KEY, "5137e278-1f35-4ddb-8452-76756fd9ff6c"},
-            {CCAPI_OKX_API_SECRET, "EFFF4539ADCD144C01BC58CDDFDA76B8"},
-            {CCAPI_OKX_API_PASSPHRASE, "Walidtest123."},
+            {CCAPI_OKX_API_KEY, "API_KEY"},
+            {CCAPI_OKX_API_SECRET, "API_SECRET"},
+            {CCAPI_OKX_API_PASSPHRASE, "API_PASSPHRASE"},
             {CCAPI_OKX_API_X_SIMULATED_TRADING, "1"}
         };
         request.setCredential(credential);
